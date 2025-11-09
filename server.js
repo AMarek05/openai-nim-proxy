@@ -22,19 +22,16 @@ const ENABLE_THINKING_MODE = false; // Set to true to enable chat_template_kwarg
 
 // Model mapping (adjust based on available NIM models)
 const MODEL_MAPPING = {
-  'gpt-3.5-turbo': 'nvidia/llama-3.1-nemotron-ultra-253b-v1',
-  'gpt-4': 'qwen/qwen3-coder-480b-a35b-instruct',
-  'gpt-4-turbo': 'moonshotai/kimi-k2-instruct-0905',
-  'gpt-4o': 'deepseek-ai/deepseek-v3.1',
-  'claude-3-opus': 'openai/gpt-oss-120b',
-  'claude-3-sonnet': 'openai/gpt-oss-20b',
-  'gemini-pro': 'qwen/qwen3-next-80b-a3b-thinking',
+  'llama-3.1': 'nvidia/llama-3.1-nemotron-ultra-253b-v1',
+  'qwen3-code': 'qwen/qwen3-coder-480b-a35b-instruct',
+  'kimi-k2': 'moonshotai/kimi-k2-instruct-0905',
+  'deepseek-v3.1': 'deepseek-ai/deepseek-v3.1',
+  'gpt-oss-120b': 'openai/gpt-oss-120b',
+  'gpt-oss-20b': 'openai/gpt-oss-20b',
+  'qwen3-next': 'qwen/qwen3-next-80b-a3b-thinking',
   'minimax-m2': 'minimaxai/minimax-m2',
   'deepseek-r1': 'deepseek-ai/deepseek-r1',
-  'deepseek-r1-0528': 'deepseek-ai/deepseek-r1-0528',
-  'deepseek-v3': 'deepseek-ai/deepseek-v3.1'
-
-
+  'deepseek-r1-0528': 'deepseek-ai/deepseek-r1-0528'
 };
 
 // Health check endpoint
