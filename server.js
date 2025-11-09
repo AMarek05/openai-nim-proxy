@@ -31,7 +31,9 @@ const MODEL_MAPPING = {
   'gemini-pro': 'qwen/qwen3-next-80b-a3b-thinking',
   'minimax-m2': 'minimaxai/minimax-m2',
   'deepseek-r1': 'deepseek-ai/deepseek-r1',
-  'deepseek-r1-0528': 'deepseek-ai/deepseek-r1-0528'
+  'deepseek-r1-0528': 'deepseek-ai/deepseek-r1-0528',
+  'deepseek-v3': 'deepseek-ai/deepseek-v3.1'
+
 
 };
 
